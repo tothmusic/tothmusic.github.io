@@ -466,7 +466,7 @@ img {
         height: 70px; } }
 
 .classy-navbar .nav-brand {
-  max-width: 130px; }
+  max-width: 70px; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breakpoint-on .classy-navbar .classy-menu {
@@ -1915,6 +1915,15 @@ img {
     color: #bd177a; }
   .musica-tabs-content .tab-content h6 {
     font-size: 18px; }
+
+.modal-body {
+	text-align: center;}
+
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;	}
 
 /* ====== The End ====== */
 
