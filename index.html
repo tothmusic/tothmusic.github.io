@@ -1,128 +1,346 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<title>toth music</title>
-<link rel="icon" 
-      type="image/png" 
-      href="images/favicon.png">
-<body style="background-color:white;">
-<style>
-p, h1 { 
-	font-family: "Arial Black", Gadget, sans-serif;
-}
-.footer {
- position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-	background-color: white;
-    text-align: center;
-}
-a:link {
-    color: black; 
-    background-color: transparent; 
-    text-decoration: none;
-}
+    <!-- Title -->
+    <title>toth music</title>
 
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
 
-a:hover {
-    color: gray;
-    background-color: transparent;
-    text-decoration: underline;
-}
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-a:active {
-    color: silver;
-    background-color: transparent;
-    text-decoration: underline;
-}
-/* Changes the style of the overall form */
-#mc_embed_signup {
-    background: #ffffff;
-    color: #000000;
-    padding: 20px;
-        text-align: center;
-}
+</head>
 
-/* Styles the header text above the inputs */
-#mc_embed_signup h2 {
-    font-size: 18px;
-    font-family: "Arial Black", Gadget, sans-serif;
-	margin: 0 0 10px;
-    color: #404040;
-    text-align: center;
-}
-
-/* Adds extra space around the input boxes */
-#mc_embed_signup .mc-field-group {
-    padding: 3px 0;
-}
-
-/* Styles the input boxes */
-#mc_embed_signup  input {
-    width: 300px;
-}
-
-/* Styles the subscribe button */
-#mc_embed_signup .button {
-    background-color: #404040;
-    color: #ffffff;
-   
-}
-</style>
-
-<p style="text-align:center;"><a href="index.html"><img src="images/toth.png" alt="toth music" width="450" height="450"></a></p>
-<br>
-<p><h1 align=center><a href="shows.html">shows</a></h1></p>
-
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://tothmusic.us18.list-manage.com/subscribe/post?u=c0c40ded64f360a3cd968e5e9&amp;id=f4ff342741" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Mailing List</h2>
-<div class="mc-field-group">
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
-</div>
-<div class="mc-field-group">
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name">
-</div>
-<div class="mc-field-group">
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c0c40ded64f360a3cd968e5e9_f4ff342741" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+<body>
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="circle-preloader">
+            <img src="img/core-img/compact-disc.png" alt="">
+        </div>
     </div>
-</form>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="musica-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="musicaNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/toth (white).png" alt="toth"></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About us</a></li>
+                                 	<li><a href="#shows">Shows</a></li>
+									<li><a href="#mailing list">Mailing List</a></li>
+                                </ul>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                    <a href="https://www.facebook.com/tothmusic/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/tothmusic/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/tothmusic" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel" id="home">
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">toth <span>toth</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">mike m, mike v, professor g</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">toth music</h2>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Professor G <span>Professor G</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">lead guitar</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">Professor G</h2>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-3.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Mike V <span>Mike V</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">vocals, harmonica</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">Mike V</h2>
+            </div>
+			
+			 <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Mike M <span>Mike M</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">guitar, ukulele, vocals</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">Mike M</h2>
+            </div>
+
+        </div>
+        <!-- bg gradients -->
+        <div class="bg-gradients"></div>
+
+        <!-- Slide Down -->
+        <div class="slide-down" id="scrollDown">
+            <h6>scroll down</h6>
+            <div class="line"></div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### About Us Area Start ##### -->
+    <div class="about-us-area section-padding-100-0 bg-img bg-overlay" style="background-image: url(img/bg-img/bg-5.jpg);" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h2>Artist Bio</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- About Thumbnail -->
+                <div class="col-12 col-lg-6">
+                    <div class="about-thumbnail mb-100">
+                        <img src="img/bg-img/bg-5.jpg" alt="">
+                    </div>
+                </div>
+                <!-- About Content -->
+                <div class="col-12 col-lg-6">
+                    <div class="about-content mb-100">
+                        <h4>Hi everyone!</h4>
+                        <p>toth is a three-man band from Rocky Hill, NJ, made up of Mike V (Vocals, Harmonica), Mike M (vocals, ukulele, guitar), and Professor G (lead guitar).  The band has been playing together since 2016, performing an eclectic mix of original songs and covers of their favorite indie rock, alt-country and classic rock artists. In addition to rehearsing for upcoming appearances, the band stay busy collaboratively writing songs to add to their ever-expanding repertoire. The trio doesn’t say much about the origin of their band name, but experts in Rocky Hill odonyms may be able to figure out its inspiration. Besides having shared musical interests, the three band mates are also family men, each of them fathers to young children, and are grateful for the ability to carve out time to create art together.</p>
+                        <img src="img/core-img/signature.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### About Us Area End ##### -->
+
+    <!-- ##### Upcoming Shows Area Start ##### -->
+    <div class="upcoming-shows-area section-padding-100" id="shows">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h2>Upcoming Shows</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Upcoming Shows Content -->
+                    <div class="upcoming-shows-content">
+
+                        <!-- Single Upcoming Shows -->
+                        <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
+                            <div class="shows-date">
+                                <h2>22 <span>February</span></h2>
+                            </div>
+                            <div class="shows-desc d-flex align-items-center">
+                                <div class="shows-img">
+                                    <img src="img/bg-img/s2.jpg" alt="">
+                                </div>
+                                <div class="shows-name">
+                                    <h6>toth original music<br>** 5 song set **</h6>
+                                    <p>Princeton, NJ</p>
+                                </div>
+                            </div>
+                            <div class="shows-location">
+                                <p>Cafe Improv<br>(Solley Theater at the Paul Robeson Center for the Arts)</p>
+                            </div>
+                            <div class="shows-time">
+                                <p>7:00pm-10:00pm<br><a href="https://cafeimprov.weebly.com/lineup-for-22-february-2020.html" target="_blank" style="background-color:white;">Lineup</a></p>
+							</div>
+                            <div class="buy-tickets">
+                                <a href="https://www.facebook.com/events/539124500181651/" target="_blank" class="btn musica-btn">More Info</a>
+                            </div>
+                        </div>
+						
+                        <!-- Single Upcoming Shows -->
+                        <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
+                            <div class="shows-date">
+                                <h2>2 <span>October</span></h2>
+                            </div>
+                            <div class="shows-desc d-flex align-items-center">
+                                <div class="shows-img">
+                                    <img src="img/bg-img/s3.png" alt="">
+                                </div>
+                                <div class="shows-name">
+                                    <h6>New Jersey Petty Fest 2020</h6>
+                                    <p>Ewing, NJ</p>
+                                </div>
+                            </div>
+                            <div class="shows-location">
+                                <p>1867 Sanctuary<br>Arts and Culture Center</p>
+                            </div>
+                            <div class="shows-time">
+                                <p>7:00pm-10:00pm</p>
+                            </div>
+                            <div class="buy-tickets">
+                                <a href="#" target="" class="btn musica-btn">Ticket Info TBA</a>
+                            </div>
+                        </div>						
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Upcoming Shows Area End ##### -->
+    
+	<!-- ##### CTA Area Start ##### -->
+    <div class="musica-cta-area section-padding-100 bg-img bg-overlay2" style="background-image: url(img/blog-img/4.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content d-flex justify-content-between align-items-center">
+                        <div class="cta-text">
+                            <h4>A glimpse back in time</h4>
+                            <h2>Want information about our past shows?</h2>
+                            <h6>Browse gig dates, locations, and set lists</h6>
+                        </div>
+                        <div class="cta-btn">
+                            <a href="archive.html" class="btn musica-btn">Show Archive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### CTA Area End ##### -->
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Footer Widget Area -->
+ 
+                <div class="col-12 col-sm-4 col-xl-2">
+                </div>
+
+				
+                <div class="col-12 col-md-6 col-xl-3" align="center">
+                    <div class="footer-widget-area mb-100" id="mailing list">
+                        <div class="widget-title">
+                            <h4>Mailing List</h4>
+                        </div>
+						<form action="https://tothmusic.us18.list-manage.com/subscribe/post?u=c0c40ded64f360a3cd968e5e9&amp;id=f4ff342741" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form" target="_blank" novalidate>
+                           	<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
+							<input type="text" name="FNAME" class="" id="mce-FNAME" placeholder="First Name">
+							<input type="text" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name">
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div class="clear">
+							<button type="submit" position="bottom">subscribe</button>
+							</div>
+						</form>
+					</div>
+                </div>
 
 
-<!--End mc_embed_signup-->
+				<div class="col-12 col-md-6 col-xl-3" align="center">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>Social</h4>
+                        </div>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="https://www.facebook.com/tothmusic/" target="_blank">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/tothmusic/" target="_blank">Instagram</a></li>
+								<li><a href="https://www.youtube.com/tothmusic" target="_blank">You Tube</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
 
-</p>
-
-<br><br><br><br>
-
-<div class="footer">
-<p style="text-align:center;">
-<span><a href="https://www.facebook.com/tothmusic/" target="_blank"><img src="images/facebook.png" alt="Facebook" width="50" height="50"/></a>
-<a href="https://www.instagram.com/tothmusic/" target="_blank"><img src="images/instagram.png" alt="Instagram" width="50" height="50"/></a>
-<a href="https://www.youtube.com/tothmusic" target="_blank"><img src="images/youtube.png" alt="You Tube" width="50" height="50"/></a>
-</span></p>
-
-<p><span >Copyright <b>&copy;</b> 2018.&nbsp;All Rights Reserved.</span></p>
+				
+				<div class="col-12 col-md-6 col-xl-3" align="center">
+                     <div class="footer-widget-area mb-100">
+                        <p class="copywrite-text">copyright &copy; <script>document.write(new Date().getFullYear());</script> toth music</p>
+                    </div>
+                </div>
 
 
-</div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
 
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
 
 </html>
